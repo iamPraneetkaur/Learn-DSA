@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Learn DSA</title>
+    </head>
+    <body>
+        <h1 ><u>Data Structures and Algorithm</u></h1>
+        <h2><em><u>Data Structure:-</u></em></h2>
+        <p>
+            Data Structures are the programmatic way of storing data so that data can be used efficiently. Almost every enterprise application uses various types of data structures in one or the other way. This tutorial will give you a great understanding on Data Structures needed to understand the complexity of enterprise level applications and need of algorithms, and data structures.
+        </p>
+        <h3><strong>Need of Data Structure:- </strong></h3>
+        <p>
+            As applications are becoming more complex and the amount of data is increasing day by day, which may cause problems with processing speed, searching data, handling multiple requests etc. Data structure provides a way of organizing, managing, and storing data efficiently. With the help of data structure, the data items can be traversed easily. Data structure provides efficiency, reusability and abstraction. It plays an important role in enhancing the performance of a program because the main function of the program is to store and retrieve the user’s data as fast as possible.
+        </p>
+        <h5><strong>Why Learn Data Structure?</strong></h5>
+        <p>
+            Data structure and algorithms are two of the most important aspects of computer science. Data structures allow us to organize and store data, while algorithms allow us to process that data in a meaningful way. Learning data structure and algorithms will help you become a better programmer. You will be able to write code that is more efficient and more reliable. You will also be able to solve problems more quickly and more effectively.
+        </p>
+        <hr size="2" noshade>
+        <h3>There are 2 types of Data Structure :</h3>
+        <ul>
+            <li>Primitive Data Structure</li>
+            <li>Non-Primitive Data Structure</li>
+        </ul>
+        <h4>Primitive Data Structure:-</h4>
+        <p>
+            Primitive Data Structures directly operate according to the machine instructions. These are the primitive data types. Data types like int, char, float, double, and pointer are primitive data structures that can hold a single value.
+        </p>
+        <h4>Non-Primitive Data Structure:-</h4>
+        <p>
+            Non-primitive data structures are complex data structures that are derived from primitive data structures. Non-Primitive data types are further divided into two categories:-
+        </p>
+        <ul>
+            <li>Linear Data Structure</li>
+            <li>Non-linear Data Structure</li>
+        </ul>
+        <hr size="2" noshade>
+        <h5>Linear Data Structure:-</h5>
+        <p>Linear Data Structure consists of data elements arranged in a sequential manner where every element is connected to its previous and next elements. This connection helps to traverse a linear arrangement in a single level and in a single run. Such data structures are easy to implement as memory is additionally sequential. Some examples of Linear Data Structure are List, Queue, Stack, Array etc.</p>
+        <h5>Non-linear Data Structure</h5>
+        <p>
+            Non-linear Data Structures do not have any set sequence of connecting all its elements and every element can have multiple paths to attach to other elements. Such data structures support multi-level storage and sometimes can’t be traversed in a single run. Such data structures aren’t easy to implement but are more efficient in utilizing memory. Some examples of non-linear data structures are Tree, BST, Graphs etc.
+        </p>
+        <hr size="2" noshade>
+        <h3><u><em>Linear Data Dtructures:</em></u></h3>
+        <ul>
+            <li><h4><b><u>Array:-</u></b></h4> 
+                <p>An array is a collection of similar data elements stored at contiguous memory locations. It is the simplest data structure where each data element can be accessed directly by only using its index number.</p>
+            <p>
+                <table border cellspacing="2">
+                    <tr>
+                        <td>2</td>
+                        <td>6</td>
+                        <td>44</td>
+                        <td>665</td>
+                        <td>1</td>
+                        <td>7</td>
+                    </tr>
+                </table>
+            </p>
+            </li>
+            <li>
+                <h4><b><u>Linked List:-</u></b></h4>
+                <p>
+                    A linked list is a linear data structure that is used to maintain a list-like structure in the computer memory. It is a group of nodes that are not stored at contiguous locations. Each node of the list is linked to its adjacent node with the help of pointers.
+                </p>
+                <image src="https://d1m75rqqgidzqn.cloudfront.net/wp-data/2021/08/06175447/x-1.png" alt="Image" width="250"></image>
+            </li>
+            <li>
+                <h4><b><u>Stack:-</u></b></h4>
+                <p>
+                    Stack is a linear data structure that follows a specific order during which the operations are performed. The order could be FILO (First In Last Out) or LIFO (Last In First Out).
+                </p>
+                <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkouCxxFEcg0IiO2xsQAGCl5mLEKFLnXucFOZG1iyXBR4MjTFmazuT71M7ym1l-Ry7t-4&usqp=CAU" alt="ImageOfStack" width="200"></image>
+            </li>
+            <li>
+                <h4><b><u>Queue:-</u></b></h4>
+                <p>
+                    Queue is a linear data structure in which elements can be inserted from only one end which is known as rear and deleted from another end known as front. It follows the FIFO (First In First Out) order.
+                </p>
+                <image src="data:image/png;base64,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" alt="ImageOfQueue" width="200"></image>
+            </li>   
+        </ul>
+        <hr size="2" noshade>
+        <h3><u><em>Non-linear Data Structures</em></u></h3>
+        <ul>
+            <li>
+                <h4><b><u>Binary Tree:-</u></b></h4>
+                <p>
+                    A tree is a multilevel data structure defined as a set of nodes.  The topmost node is named root node while the bottom most nodes are called leaf nodes. Each node has only one parent but can have multiple children.
+                </p>
+                <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKVPs4LuMql9Oa7d0tsGwJSPFELQUC6QxSg&usqp=CAU" alt="TreeImage" width="150"></image>            
+            </li>
+            <li>
+                <h4><b><u>Graph:-</u></b></h4>
+                <p>
+                    A graph is a pictorial representation of a set of objects connected by links known as edges. The interconnected nodes are represented by points named vertices, and the links that connect the vertices are called edges.
+                </p>
+                <image src="data:image/png;base64,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" alt="GraphImage" width="200"></image>
+            </li>
+        </ul>
+        <hr size="2" noshade>
+        <h2><u><em>Algorithms:-</em></u></h2>
+        <p>
+            The word Algorithm means “A set of rules to be followed in calculations or other problem-solving operations” Or “A procedure for solving a mathematical problem in a finite number of steps that frequently involves recursive operations “.
+            Therefore Algorithm refers to a sequence of finite steps to solve a particular problem.
+            Algorithms can be simple and complex depending on what you want to achieve.
+        </p>
+        <centre>
+            <image src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191016135223/What-is-Algorithm_-1024x631.jpg" alt="Image" width="450"></image>
+        </centre>
+        <hr size="4" noshade>
+        <h2><em><strong>Some of the sources to learn DSA:- </strong></em></h2>
+        <h3>Websites: </h3>
+        <ul>
+            <li><a href="https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/?ref=shm"><em>GeeksOfGeeks</em></a></li>
+            <li><a href="https://www.tutorialspoint.com/data_structures_algorithms/index.htm"><em>TurorialsPoint</em></a></li>
+            <li><a href="https://www.mygreatlearning.com/blog/data-structure-tutorial-for-beginners/#types-of-data-structure"><em>GreatLearning</em></a></li>
+            <li><a href="https://www.programiz.com/dsa"><em>Programiz</em></a></li>
+            <li><a href="https://www.codechef.com/certification/data-structures-and-algorithms/prepare"><em>CodeChef</em></a></li>
+            <li><a href="https://techdevguide.withgoogle.com/resources/topics/data-structures/?no-filter=true"><em>TechDevGuide</em></a></li>
+        </ul>
+        <h3>Youtube Playlists</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi"><em>CodeWithHarry</em></a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU"><em>Jenny'sLectures</em></a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P"><em>MyCodeSchool</em></a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRj9lld8sWIUNwlKfdUoPd1Y">NesoAcademy</a></li>
+            <li><a href="https://www.youtube.com/playlist?list=PLEJXowNB4kPzDxOSQJFEnfZW_fduTdFlD"><em>TechDose</em></a></li>
+            <li><a href="https://www.youtube.com/@TheAdityaVerma/playlists"><em>AdityaVerma</em></a></li>
+        </ul>
+        <hr size="4" noshade>
+        
+    </body>
+</html>
